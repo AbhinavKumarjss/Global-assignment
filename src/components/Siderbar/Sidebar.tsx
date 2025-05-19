@@ -32,7 +32,7 @@ export default function Sidebar() {
     </div>
 
 
-    <div className='hidden xl:block bg-[var(--color-lightgray)] flex-col justify-start items-center w-[72px] transition-transform duration-300 ease-in-out h-full dark:bg-[var(--color-dark)]'>
+    <div className='hidden xl:block bg-[var(--color-lightgray)] flex-col justify-start items-center w-[72px] transition-transform duration-300 ease-in-out h-screen dark:bg-[var(--color-dark)]'>
         <div className='flex w-full justify-start items-center p-5 '>
 
         <button onClick={()=>SetOpen(i =>!i)}>

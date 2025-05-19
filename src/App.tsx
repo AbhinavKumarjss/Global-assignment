@@ -31,12 +31,12 @@ export default function App() {
               <Route path='/upload' element={
                 <>
                   <Sidebar />
-                  <div className="page-wrapper-sub w-full dark:bg-[var(--color-darkgray)]">
+                  <div className="page-wrapper-sub w-full h-full dark:bg-[var(--color-darkgray)]">
                     <div className="page-wrapper-sub flex flex-col w-full h-full dark:bg-darkgray">
                       <Navbar />
                       <Upload />
-                      <Footer/>
                     </div>
+                      <Footer/>
                   </div>
                 </>
               } />
