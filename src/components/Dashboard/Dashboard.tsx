@@ -1,7 +1,7 @@
 
 export default function Dashboard() {
     return (
-        <div className='h-full bg-[var(--color-lightgray)] dark:bg-[var(--color-dark)] rounded-2xl p-5 mr-4'>
+        <div className='h-full bg-[var(--color-lightgray)] dark:bg-[var(--color-dark)] rounded-2xl p-5 mr-4 overflow-y-auto scrolly'>
             <div className='grid grid-cols-1 xl:grid-cols-2 gap-7 h-full'>
                 {/* Welcome Card */}
                 <div className='w-full'>
