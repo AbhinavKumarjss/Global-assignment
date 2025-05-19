@@ -19,7 +19,7 @@ export default function Navbar() {
             <div className="flex flex-col xl:flex-row w-full">
             <div className=" flex items-center w-full">
                 <img className=" block xl:hidden m-auto"src="https://matdash-react-tailwind-main.netlify.app/assets/logo-Dq6uoD-m.svg" alt="" />
-                <span onClick={()=>{setOpenMobile(e =>!e)}} className=" h-10 w-10 flex xl:hidden hover:text-primary hover:bg-lightprimary rounded-full justify-center items-center cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="iconify iconify--tabler text-gray-500" width="21" height="21" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" className="text-inherit" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m7 0a1 1 0 1 0 2 0a1 1 0 1 0-2 0m7 0a1 1 0 1 0 2 0a1 1 0 1 0-2 0"></path></svg></span>
+                <span onClick={()=>{setOpenMobile(e =>!e)}} className=" h-10 w-10 flex xl:hidden hover:text-primary hover:bg-lightprimary rounded-full justify-center items-center cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="iconify iconify--tabler text-gray-500" width="21" height="21" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" className="text-inherit" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m7 0a1 1 0 1 0 2 0a1 1 0 1 0-2 0m7 0a1 1 0 1 0 2 0a1 1 0 1 0-2 0"></path></svg></span>
 
             </div>
 

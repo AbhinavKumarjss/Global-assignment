@@ -88,10 +88,12 @@
   }
 
   .scrolly::-webkit-scrollbar{
-    width: 2px;
+    width: 0;
 
   }
   .scrolly::-webkit-scrollbar-thumb{
+    overflow: scroll;
+    
     background-color: rgba(34, 34, 34, 0.284);
   }
 }

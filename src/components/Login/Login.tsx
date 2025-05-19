@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useDispatch } from 'react-redux';
+import { loginSuccess } from '../context/authSlice';
 
 export default function Login() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -27,6 +30,13 @@ export default function Login() {
     }
 
     if (email === 'avi@gmail.com' && password === 'avi123') {
+      dispatch(loginSuccess({
+        user: {
+          email: email,
+          name: 'David'
+        },
+        token: 'demo-token-123'
+      }));
       navigate("/");
     } else {
       setError('Invalid email or password');

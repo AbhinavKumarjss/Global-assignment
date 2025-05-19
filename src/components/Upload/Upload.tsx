@@ -138,7 +138,7 @@ const Upload = () => {
               </div>
               {subtitleText && (
                 <div className="mt-4">
-                  <pre className="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg text-sm overflow-x-auto max-h-[300px]">
+                  <pre className="p-4 bg-gray-50 dark:bg-gray-900 dark:text-white scrolly rounded-lg text-sm overflow-x-auto max-h-[300px]">
                     {subtitleText}
                   </pre>
                 </div>
