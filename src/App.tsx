@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
-    <div className="flex w-full min-h-screen bg-white dark:bg-[var(--color-darkgray)]">
+    <div className="flex w-full max-h-screen bg-white dark:bg-[var(--color-darkgray)]">
 
 
           <Router>
@@ -19,7 +19,7 @@ export default function App() {
               <Route path='/' element={
                 <>
                   <Sidebar />
-                  <div className="page-wrapper-sub flex flex-col w-full dark:bg-[var(--color-darkgray)]">
+                  <div className="page-wrapper-sub flex max-h-screen flex-col w-full dark:bg-[var(--color-darkgray)]">
                     <div className="page-wrapper-sub flex flex-col w-full h-full dark:bg-darkgray">
                       <Navbar />
                       <Dashboard />
@@ -31,12 +31,12 @@ export default function App() {
               <Route path='/upload' element={
                 <>
                   <Sidebar />
-                  <div className="page-wrapper-sub w-full h-full dark:bg-[var(--color-darkgray)]">
+                  <div className="page-wrapper-sub w-full max-h-screen dark:bg-[var(--color-darkgray)]">
                     <div className="page-wrapper-sub flex flex-col w-full h-full dark:bg-darkgray">
                       <Navbar />
                       <Upload />
-                    </div>
                       <Footer/>
+                    </div>
                   </div>
                 </>
               } />

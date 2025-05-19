@@ -86,5 +86,13 @@
   .active{
     box-shadow: 0 17px 20px -8px rgba(77, 91, 236, .21372549);
   }
+
+  .scrolly::-webkit-scrollbar{
+    width: 2px;
+
+  }
+  .scrolly::-webkit-scrollbar-thumb{
+    background-color: rgba(34, 34, 34, 0.284);
+  }
 }
 

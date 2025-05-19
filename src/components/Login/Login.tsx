@@ -26,7 +26,6 @@ export default function Login() {
       return;
     }
 
-    // Demo login check
     if (email === 'avi@gmail.com' && password === 'avi123') {
       navigate("/");
     } else {
@@ -35,7 +34,7 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen w-full relative bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 dark:from-indigo-900 dark:via-purple-900 dark:to-pink-900">
+    <div className="min-h-screen w-full relative bg-gradient-to-br from-indigo-500 to-purple-500 dark:from-indigo-900 dark:via-purple-900 dark:to-pink-900">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAzNGMwLTIuMjA5IDEuNzkxLTQgNC00czQgMS43OTEgNCA0LTEuNzkxIDQtNCA0LTQtMS43OTEtNC00eiIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuMSIvPjwvZz48L3N2Zz4=')] opacity-20"></div>
       

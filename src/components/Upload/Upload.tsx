@@ -43,7 +43,7 @@ const Upload = () => {
   };
 
   return (
-    <div className="p-6 mr-4 bg-[var(--color-lightgray)] dark:bg-[var(--color-dark)] h-full rounded-2xl">
+    <div className="p-6 mr-4 bg-[var(--color-lightgray)] overflow-y-auto scrolly dark:bg-[var(--color-dark)] rounded-2xl">
       <div className="max-w-4xl mx-auto">
         {/* Header Section */}
         <div className="mb-8">
@@ -52,9 +52,7 @@ const Upload = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Left Column - Video Upload */}
           <div className="space-y-6">
-            {/* Video Upload Section */}
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-4">
                 <div className="p-2 bg-primary/10 rounded-lg">
