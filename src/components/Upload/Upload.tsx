@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const Upload = () => {
-  const [video, setVideo] = useState<File | null>(null);
-  const [image, setImage] = useState<File | null>(null);
-  const [subtitle, setSubtitle] = useState<File | null>(null);
+  const [, setVideo] = useState<File | null>(null);
+  const [, setImage] = useState<File | null>(null);
+  const [, setSubtitle] = useState<File | null>(null);
   const [subtitleText, setSubtitleText] = useState<string>("");
   const [videoPreview, setVideoPreview] = useState<string | null>(null);
   const [imagePreview, setImagePreview] = useState<string | null>(null);
