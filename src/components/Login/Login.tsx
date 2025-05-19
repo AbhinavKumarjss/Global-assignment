@@ -35,23 +35,18 @@ export default function Login() {
 
   return (
     <div className="min-h-screen w-full relative bg-gradient-to-br from-indigo-500 to-purple-500 dark:from-indigo-900 dark:via-purple-900 dark:to-pink-900">
-      {/* Background Pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAzNGMwLTIuMjA5IDEuNzkxLTQgNC00czQgMS43OTEgNCA0LTEuNzkxIDQtNCA0LTQtMS43OTEtNC00eiIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuMSIvPjwvZz48L3N2Zz4=')] opacity-20"></div>
       
-      {/* Animated Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 via-purple-500/30 to-pink-500/30 animate-gradient-x"></div>
 
       <div className="flex min-h-screen items-center justify-center p-4 relative">
         <div className="w-full max-w-md">
-          {/* Login Card */}
           <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg rounded-2xl shadow-2xl overflow-hidden border border-white/20">
-            {/* Header */}
             <div className="bg-gradient-to-r from-indigo-500 to-purple-500 p-6 text-center">
               <h2 className="text-2xl font-bold text-white">Welcome Back</h2>
               <p className="text-sm text-white/80 mt-1">Please sign in to your account</p>
             </div>
 
-            {/* Form */}
             <form onSubmit={handleSignIn} className="p-6 space-y-6">
               {error && (
                 <div className="bg-red-50 dark:bg-red-900/30 text-red-500 dark:text-red-400 text-sm p-3 rounded-lg flex items-center gap-2">
@@ -62,7 +57,6 @@ export default function Login() {
                 </div>
               )}
 
-              {/* Email Input */}
               <div className="space-y-2">
                 <label htmlFor="email" className="text-sm font-medium text-gray-700 dark:text-gray-300">
                   Email Address
@@ -85,7 +79,6 @@ export default function Login() {
                 </div>
               </div>
 
-              {/* Password Input */}
               <div className="space-y-2">
                 <label htmlFor="password" className="text-sm font-medium text-gray-700 dark:text-gray-300">
                   Password
@@ -107,7 +100,6 @@ export default function Login() {
                 </div>
               </div>
 
-              {/* Submit Button */}
               <button
                 type="submit"
                 className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white py-2.5 px-4 rounded-lg font-medium hover:from-indigo-600 hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:ring-offset-2 transition-all duration-200 flex items-center justify-center gap-2 shadow-lg shadow-indigo-500/25"
@@ -118,7 +110,6 @@ export default function Login() {
                 Sign In
               </button>
 
-              {/* Demo Credentials */}
               <div className="text-center">
                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/50 dark:bg-gray-700/50 backdrop-blur-sm rounded-lg border border-white/20">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-indigo-500" viewBox="0 0 20 20" fill="currentColor">

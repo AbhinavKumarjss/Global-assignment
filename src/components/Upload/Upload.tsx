@@ -45,7 +45,6 @@ const Upload = () => {
   return (
     <div className="p-6 mr-4 bg-[var(--color-lightgray)] overflow-y-auto scrolly dark:bg-[var(--color-dark)] rounded-2xl">
       <div className="max-w-4xl mx-auto">
-        {/* Header Section */}
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-primary mb-2">Upload Your Video</h2>
           <p className="text-gray-600 dark:text-gray-400">Share your content with the world</p>
@@ -84,7 +83,6 @@ const Upload = () => {
               )}
             </div>
 
-            {/* Thumbnail Upload Section */}
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-4">
                 <div className="p-2 bg-primary/10 rounded-lg">
@@ -117,7 +115,6 @@ const Upload = () => {
             </div>
           </div>
 
-          {/* Right Column - Subtitle Upload */}
           <div className="space-y-6">
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm h-full">
               <div className="flex items-center gap-3 mb-4">
@@ -150,7 +147,6 @@ const Upload = () => {
           </div>
         </div>
 
-        {/* Submit Button */}
         <div className="mt-8 flex justify-end">
           <button
             className="px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition-colors duration-200 flex items-center gap-2"

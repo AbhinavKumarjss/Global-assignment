@@ -3,7 +3,6 @@ export default function Dashboard() {
     return (
         <div className='h-full bg-[var(--color-lightgray)] dark:bg-[var(--color-dark)] rounded-2xl p-5 mr-4 overflow-y-auto scrolly'>
             <div className='grid grid-cols-1 xl:grid-cols-2 gap-7 h-full'>
-                {/* Welcome Card */}
                 <div className='w-full'>
                     <div data-testid="flowbite-card" className="flex rounded-xl relative w-full break-words flex-col card p-[30px] bg-primary dark:bg-primary pb-0 shadow-md dark:shadow-none">
                         <div className="flex h-full flex-col justify-center gap-2 p-0">
@@ -36,7 +35,6 @@ export default function Dashboard() {
                     </div>
                 </div>
 
-                {/* Chart iframe */}
                 <div className='w-full h-full'>
                     <iframe 
                         className='w-full h-full rounded-xl' 

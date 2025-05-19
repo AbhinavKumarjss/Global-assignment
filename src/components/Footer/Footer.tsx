@@ -4,7 +4,6 @@ const Footer = () => {
     <footer className="bg-[var(--color-dark-gray)] backdrop-blur-lg border-white/20">
       <div className="max-w-7xl mx-auto px-4 py-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          {/* Logo and Copyright */}
           <div className="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clipRule="evenodd" />
@@ -14,7 +13,6 @@ const Footer = () => {
             </span>
           </div>
 
-          {/* Social Links */}
           <div className="flex items-center gap-4">
             <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors">
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -38,7 +36,6 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Quick Links */}
           <div className="flex items-center gap-6 text-sm">
             <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors">
               Privacy Policy
